@@ -8,7 +8,6 @@ import org.openqa.selenium.WebDriver;
 public class LoginPage_POM {
 	
 	protected WebDriver driver;
-
 	private By txt_username =By.name("username");
 	private By txt_password =By.xpath("//*[@type='password']");
 	private	By btn_submit =By.xpath("//*[@type='submit']");
